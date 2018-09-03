@@ -9,11 +9,25 @@ plugin:
         - Client
 ---
 
-This provides the base plugin that is the basis for all auth based plugins that
-utilize our internal authentication system.
+This plugin overrides the auth plugin for Coral Talk comments.
 
-To sync Talk auth with your own auth systems, you can use this plugin as a
-template.
+To install,
+- Install this in the /plugins dir
+- remove `talk-plugin-auth` from `plugins.default.json`
+- add `talk-plugin-dm-auth` to `plugins.json`
+
+Sample plugins.json:
+
+```
+{
+  "server": [
+  ],
+  "client": [
+    "talk-plugin-dm-auth"
+  ]
+}
+```
+
 
 ## GDPR Compliance
 
