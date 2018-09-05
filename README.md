@@ -21,6 +21,7 @@ Sample plugins.json:
 ```
 {
   "server": [
+    "talk-plugin-dm-auth"
   ],
   "client": [
     "talk-plugin-dm-auth"
