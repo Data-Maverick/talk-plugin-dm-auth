@@ -3,10 +3,10 @@ body {
 }
 
 #talk-embed-stream-container {
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, sans-serif !important;
 }
 
-button {
+.Button__type--lightGrey___14t8J {
     background-color: #ec1c24;
     color: #fff;
 }
