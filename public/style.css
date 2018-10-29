@@ -6,7 +6,7 @@ body {
     font-family: Roboto, sans-serif !important;
 }
 
-button {
-    background-color: #ec1c24 !important;
-    color: #fff !important;
+.talk-plugin-commentbox-button {
+    background-color: #ec1c24;
+    color: #fff;
 }
