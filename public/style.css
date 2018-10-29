@@ -6,7 +6,7 @@ body {
     font-family: Roboto, sans-serif !important;
 }
 
-.Button__type--lightGrey___14t8J {
-    background-color: #ec1c24;
-    color: #fff;
+button {
+    background-color: #ec1c24 !important;
+    color: #fff !important;
 }
