@@ -31,3 +31,7 @@ body {
     min-height: auto;
     padding-bottom: 10px;
 }
+
+.hide-reply .talk-plugin-replies-reply-button {
+    display: none;
+}
