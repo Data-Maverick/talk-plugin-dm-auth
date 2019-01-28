@@ -6,7 +6,7 @@ const SignInButton = ({ isLoggedIn, showSignInDialog }) => (
   <div className="talk-stream-auth-sign-in-button">
     {!isLoggedIn ? (
       <a
-        href="https://dailymaverick.co.za/insider/?utm_source=DM_Website&utm_medium=post-article&utm_campaign=comments"
+        href="https://dailymaverick.co.za/insider/?utm_source=DM_Website&utm_medium=Comments"
         className={styles.button}
         target="_top"
       >
