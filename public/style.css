@@ -32,6 +32,6 @@ body {
     padding-bottom: 10px;
 }
 
-.hide-reply .talk-plugin-replies-reply-button {
+.notLoggedIn .talk-stream-comment-actions-container {
     display: none;
 }
