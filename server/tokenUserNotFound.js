@@ -51,7 +51,7 @@ var tokenUserNotFound = async ({jwt, token}) => {
     if (!profile) return null;
     if (!profile.id) return null;
     let user = await UserModel.findOneAndUpdate({
-        id: profile.id
+        id: jwt.sub
     }, profile, {
         setDefaultsOnInsert: true,
         new: true,
